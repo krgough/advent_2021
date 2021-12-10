@@ -2,7 +2,7 @@
 """
 
 Advent of Code 2021: Day 9: Smoke Basin
-https://adventofcode.com/2021/day/
+https://adventofcode.com/2021/day/9
 
 """
 # pylint: disable=invalid-name
@@ -105,6 +105,7 @@ def multiply_list(data):
     for d in data:
         res *= d
     return res
+
 
 def main():
     """ Main Program
