@@ -142,5 +142,6 @@ def main():
 
     assert power_consumption == 4147524
 
+
 if __name__ == ("__main__"):
     main()

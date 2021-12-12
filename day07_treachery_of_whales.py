@@ -34,10 +34,13 @@ def addatorial_func(num):
 
 
 def unity_func(num):
+    """ Return myself
+    """
     return num
 
 
 def calc_deltas(data, func):
+    # pylint: disable=invalid-name
     """ Find the minimum moves required to move
         all numbers to a single number
     """
@@ -57,7 +60,7 @@ def main():
     data = load_data(INPUT)
     consumption = min(calc_deltas(data, unity_func))
     print(f"Minimum Consumption: {consumption}")
-    assert continue == 341558
+    assert consumption == 341558
 
     # Part 2
     data = load_data(INPUT)
