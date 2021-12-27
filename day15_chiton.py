@@ -6,7 +6,7 @@ https://adventofcode.com/2021/day/15
 
 """
 # pylint: disable=invalid-name
-# from rich import print
+from rich import print as pprint
 
 TEST_INPUT = 'data/day15_test_data.txt'
 INPUT = 'data/day15_data.txt'
